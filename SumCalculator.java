@@ -1,5 +1,4 @@
-package InterfaceProject;
-
+@FunctionalInterface
 public interface SumCalculator {
-    int calculate(int x, int y);
+    int calculateSum(int start, int end);
 }
